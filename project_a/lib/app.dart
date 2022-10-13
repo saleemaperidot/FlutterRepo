@@ -9,13 +9,17 @@ class App extends StatelessWidget {
       title: "My APP A",
       home: Scaffold(
         // ignore: avoid_unnecessary_containers
-        body: Container(
-          width: 100,
-          height: 300,
-          decoration: BoxDecoration(
-              color: Colors.red, border: Border.all(color: Colors.green)),
-          child: const Center(
-            child: Text("MyAppthi"),
+        body: Center(
+          child: Container(
+            width: 100,
+            height: 300,
+            decoration: BoxDecoration(
+                color: Colors.red,
+                border: Border.all(width: 10, color: Colors.green),
+                borderRadius: BorderRadius.circular(10)),
+            child: const Center(
+              child: Text("MyAppthi"),
+            ),
           ),
         ),
       ),
