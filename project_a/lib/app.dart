@@ -11,8 +11,10 @@ class App extends StatelessWidget {
         // ignore: avoid_unnecessary_containers
         body: Center(
           child: Container(
-            width: 100,
-            height: 300,
+            width: 320,
+            height: 100,
+            margin: const EdgeInsets.only(left: 10, right: 100),
+            padding: const EdgeInsets.only(left: 10, right: 10),
             decoration: BoxDecoration(
                 color: Colors.red,
                 border: Border.all(width: 10, color: Colors.green),
