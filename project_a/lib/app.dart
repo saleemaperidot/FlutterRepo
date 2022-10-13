@@ -13,6 +13,7 @@ class App extends StatelessWidget {
           width: 100,
           height: 300,
           color: Colors.red,
+          decoration: BoxDecoration(border: Border.all(color: Colors.black12)),
           child: const Center(
             child: Text("MyAppthi"),
           ),
